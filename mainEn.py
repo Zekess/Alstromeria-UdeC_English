@@ -34,6 +34,7 @@ col2.image('imagenes/udec.gif', use_column_width='always')
 
 with st.sidebar:
     st.image('imagenes/marca_udec2.png')
+    st.session_state['idioma'] = st.selectbox('Language', ['English', 'Spanish'])
     st.text('')
     st.text('')
     pag_navegacion_actual = st.radio('Navigate', paginas_navegacion)
