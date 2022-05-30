@@ -173,7 +173,7 @@ elif pag_navegacion_actual == paginas_navegacion[3]:
     st.header('Documentation')
 
     st.markdown("""The source code is aviable ON!! the following GitHub repository:
-    <a href="https://github.com/Zekess/Indices_de_asimetria">**Alstromeria-UdeC Repository**</a>.\n""",
+    <a href="https://github.com/Zekess/Alstromeria-UdeC_English">**Alstromeria-UdeC Repository**</a>.\n""",
                 unsafe_allow_html=True)
     st.markdown(""" Below there is a summary of the indices that **Alstromeria-UdeC** includes. Note that in what 
     follows, _n_ represents the total number of chromosomes. Also the standard deviation corresponds to the sample 
