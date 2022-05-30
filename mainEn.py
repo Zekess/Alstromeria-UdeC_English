@@ -26,7 +26,7 @@ def add_sesion_state(st_key, value):
 
 st.set_page_config(layout="wide")
 
-paginas_navegacion = ['Home', 'How to use', '**Alstromeria-UdeC**', 'Documentation', 'About Alstroemeria-UdeC']
+paginas_navegacion = ['Home', 'How to use', 'Alstromeria-UdeC', 'Documentation', 'About Alstroemeria-UdeC']
 
 col1, _, col2 = st.columns([1, 3, 2])
 col1.image('imagenes/logoAPP.bmp')
